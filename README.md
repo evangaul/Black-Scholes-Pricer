@@ -2,6 +2,7 @@
 
 A web-based application built with Python and Streamlit to price European call and put options using the Black-Scholes model. 
 
+[Live Demo](https://black-scholes-pricer-eg.streamlit.app/)
 ## Features
 - Calculates call and put prices using the Black Scholes Model
 - Visualizes option price vs. stock price using Plotly
