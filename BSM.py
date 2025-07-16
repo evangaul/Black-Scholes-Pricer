@@ -113,10 +113,10 @@ with st.expander("About the Black-Scholes Model"):
         - Lognormal distribution of returns
 
         **Formulas**:
-        - Call: \( C = S \cdot N(d_1) - K \cdot e^{-rT} \cdot N(d_2) \)
-        - Put: \( P = K \cdot e^{-rT} \cdot N(-d_2) - S \cdot N(-d_1) \)
+        - Call: C = S * N(d1) - K * e^(-rT) * N(d2)
+        - Put: P = K e^(-rT) * N(-d2) - S * N(-d1)
         - Where:
-          - \( d_1 = \frac{\ln(S/K) + (r + \sigma^2/2)T}{\sigma \sqrt{T}} \)
-          - \( d_2 = d_1 - \sigma \sqrt{T} \)
-          - \( N \): Cumulative distribution function of the standard normal distribution
+          - d1 = (ln(S/K) + (r + σ^2/2) * T) / σ * sqrt(T)
+          - d2 = d1 - σ * sqrt(T)
+          - N = Cumulative Normal Distribution
     """)
