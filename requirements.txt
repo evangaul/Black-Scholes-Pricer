@@ -1,0 +1,4 @@
+spicy
+pandas
+numpy
+plotly
